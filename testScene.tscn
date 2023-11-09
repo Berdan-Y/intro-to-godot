@@ -1,0 +1,50 @@
+[gd_scene load_steps=3 format=3 uid="uid://b3llx1igqfmu0"]
+
+[ext_resource type="PackedScene" uid="uid://dirc6bqd771kg" path="res://player.tscn" id="1_7nxyl"]
+[ext_resource type="PackedScene" uid="uid://copu6ykyvh8k" path="res://coin.tscn" id="2_thchb"]
+
+[node name="Node2D" type="Node2D"]
+position = Vector2(0, -72)
+
+[node name="player" parent="." instance=ExtResource("1_7nxyl")]
+
+[node name="player2" parent="." instance=ExtResource("1_7nxyl")]
+position = Vector2(-150, 0)
+
+[node name="player3" parent="." instance=ExtResource("1_7nxyl")]
+position = Vector2(150, 0)
+
+[node name="player4" parent="." instance=ExtResource("1_7nxyl")]
+position = Vector2(75, 75)
+
+[node name="player5" parent="." instance=ExtResource("1_7nxyl")]
+position = Vector2(-75, 75)
+
+[node name="player6" parent="." instance=ExtResource("1_7nxyl")]
+position = Vector2(0, 150)
+
+[node name="coin" parent="." instance=ExtResource("2_thchb")]
+position = Vector2(-0.117752, -380)
+scale = Vector2(1.5, 1.5)
+
+[node name="coin2" parent="." instance=ExtResource("2_thchb")]
+position = Vector2(-0.117752, -293)
+scale = Vector2(1.5, 1.5)
+
+[node name="coin5" parent="." instance=ExtResource("2_thchb")]
+position = Vector2(-84.1177, -334)
+rotation = 0.785398
+scale = Vector2(1.5, 1.5)
+
+[node name="coin6" parent="." instance=ExtResource("2_thchb")]
+position = Vector2(84.118, -334)
+rotation = 0.785398
+scale = Vector2(1.5, 1.5)
+
+[node name="coin3" parent="." instance=ExtResource("2_thchb")]
+position = Vector2(-22.1178, -334)
+scale = Vector2(1, 1.028)
+
+[node name="coin4" parent="." instance=ExtResource("2_thchb")]
+position = Vector2(22.118, -334)
+scale = Vector2(1, 1.028)
